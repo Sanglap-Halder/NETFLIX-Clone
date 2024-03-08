@@ -13,9 +13,10 @@ body {
 }
 
 .main {
+    background: url(homepagebg.jpg) no-repeat top center/cover;
     height: 104vh;
     width: 100%;
-    background: url(homepagebg.jpg) no-repeat top center/cover;
+    
 }
 
 .main>.container {
@@ -346,6 +347,7 @@ footer>.container>.button {
     .data>p:nth-child(4) {
         font-size: 1rem;
     }
+
     .data>.databox {
         flex-direction: column;
         gap: 3vw;
@@ -358,7 +360,7 @@ footer>.container>.button {
         font-weight: 500;
         border-radius: 0.2rem;
         width: 80vw;
-        padding: 2vw ;
+        padding: 2vw;
     }
 
     #loginbox {
@@ -366,91 +368,96 @@ footer>.container>.button {
         border-radius: 0.2rem;
         font-size: 1.3rem;
         width: 12rem;
-        padding: 2vw ;
+        padding: 2vw;
     }
+
     .line1 {
         top: 60vh;
     }
-    
+
     .line {
         top: 60.5vh;
     }
+
     .main2 {
         position: relative;
         top: 1rem;
     }
+
     .plans>h1 {
         font-size: 1.3rem;
         z-index: 10;
     }
-    
+
     .plans {
         padding-top: 7vw;
         gap: 2vw;
     }
-    
+
     .planboxes {
         display: flex;
         flex-direction: column;
         gap: 2vw;
     }
-    
+
     .planboxes>.planbox {
         padding: 5vw;
         font-size: 1rem;
         width: 80vw;
         border-radius: 3vw;
     }
+
     .subscriptions>h1 {
         font-size: 1.3rem;
         z-index: 10;
     }
-    
+
     .subscriptions {
         padding-top: 7vw;
         gap: 2vw;
     }
-    
+
     .subscriptionboxes {
         display: flex;
         flex-direction: column;
         gap: 2vw;
     }
-    
+
     .subscriptionboxes>.subscriptionbox {
         padding: 5vw;
         font-size: 1rem;
         width: 80vw;
         border-radius: 3vw;
     }
+
     .faqs>h1 {
         font-size: 1.3rem;
     }
-    
+
     .faqs {
         padding: 15vw 4vw;
         gap: 0.7rem;
     }
-    
+
     .faqs>.question {
         padding: 4vw;
         font-size: 1.3rem;
         font-weight: 100;
         width: 100%;
     }
-    
+
     .faqs>p {
         font-size: 1rem;
         margin-top: 2rem;
     }
-    
+
     .faqs>.databox {
         margin-top: 0.7rem;
         display: flex;
         flex-direction: column;
         gap: 2vw;
     }
-    
+
     .faqs>.databox>input {
         font-size: 1rem;
         font-weight: 100;
@@ -458,31 +465,32 @@ footer>.container>.button {
         width: 100%;
         border-radius: 0.2rem;
     }
+
     footer {
         margin-top: 1rem;
         gap: 3rem;
     }
-    
+
     footer div {
         font-size: 1rem;
     }
-    
+
     footer span {
         font-size: 1rem;
     }
-    
+
     footer>.boxes {
         display: flex;
         flex-direction: column;
         gap: 1rem;
     }
-    
+
     footer>.boxes>.box {
         display: flex;
         flex-direction: column;
         gap: 1rem;
     }
-    
+
     footer>.container>.button {
         width: 14vw;
     }
